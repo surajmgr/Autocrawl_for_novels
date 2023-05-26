@@ -1,0 +1,46 @@
+.createNote .tox-tinymce {
+    border: 0 !important;
+}
+
+.createNote .tox-editor-header {
+    box-shadow: none !important;
+}
+
+.tox-editor-header .tox-toolbar__primary .tox-toolbar__group * {
+    cursor: pointer !important;
+}
+
+.createNote .tox-statusbar {
+    padding: 0 25px !important;
+    z-index: 10 !important;
+    position: fixed !important;
+    bottom: 0 !important;
+    width: 100% !important;
+    left: 0 !important;
+}
+
+.App {
+    background-color: #fff !important;
+}
+
+.ql-toolbar {
+    border: 0 !important;
+        --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+        --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+        box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) !important;
+        border-bottom-width: 1px !important;
+}
+
+.ql-container {
+    border: 0 !important;
+    font-size: 16px !important;
+    padding-bottom: 30px !important;
+}
+
+.ql-container p {
+    display: block !important;
+    margin-block-start: 1em !important;
+    margin-block-end: 1em !important;
+    margin-inline-start: 0px !important;
+    margin-inline-end: 0px !important;
+}
